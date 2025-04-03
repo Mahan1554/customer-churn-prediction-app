@@ -124,12 +124,12 @@ class ChurnPreprocessor:
 @st.cache_resource
 def load_preprocessor():
         return ChurnPreprocessor(
-        r"C:\Users\mahan\Downloads\Play\Projects\Churn Prediction\encoder_churn.pkl",
-        r"C:\Users\mahan\Downloads\Play\Projects\Churn Prediction\scaler_churn.pkl",
-        r"C:\Users\mahan\Downloads\Play\Projects\Churn Prediction\best_model_churn.pkl",
-        r"C:\Users\mahan\Downloads\Play\Projects\Churn Prediction\cox_model.pkl",
-        r"C:\Users\mahan\Downloads\Play\Projects\Churn Prediction\encoded_columns.pkl",
-        r"C:\Users\mahan\Downloads\Play\Projects\Churn Prediction\feature_names.pkl"
+        "encoder_churn.pkl",
+        "scaler_churn.pkl",
+        "best_model_churn.pkl",
+        "cox_model.pkl",
+        "encoded_columns.pkl",
+        "feature_names.pkl"
     )
 
 
